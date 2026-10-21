@@ -1,0 +1,25 @@
+{
+  "name": "nimprint",
+  "private": true,
+  "license": "MIT",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mmote/niimbluelib": "0.47.1",
+    "jsbarcode": "3.12.3",
+    "lucide-static": "1.57.0",
+    "qrcode-generator": "2.0.4"
+  },
+  "devDependencies": {
+    "@types/jsbarcode": "^3.11.4",
+    "@types/w3c-web-serial": "^1.0.8",
+    "@types/web-bluetooth": "^0.0.21",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}
